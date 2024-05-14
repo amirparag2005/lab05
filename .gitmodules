@@ -4,3 +4,9 @@
 [submodule "third-party/cpp-coveralls"]
 	path = third-party/cpp-coveralls
 	url = https://github.com/eddyxu/cpp-coveralls
+[submodule "tests/third-party/gtest"]
+	path = tests/third-party/gtest
+	url = https://github.com/google/googletest
+[submodule "third-party/gtest"]
+	path = third-party/gtest
+	url = https://github.com/google/googletest
