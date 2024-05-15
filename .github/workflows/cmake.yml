@@ -34,7 +34,7 @@ jobs:
         lcov --list coverage.info
 
     - name: Coveralls
-      uses: coverallsapp/github-action@main
+      uses: coverallsapp/github-action@master
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         path-to-lcov: ${{ github.workspace }}/coverage.info
